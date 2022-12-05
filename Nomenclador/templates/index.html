@@ -1,0 +1,27 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Provincia</title>
+    <link rel="stylesheet" href="{% static 'vendor/Bootstrap/css/bootstrap.min.css' %}">
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-md-4 my-4 mx-auto">
+            <select id="selectRegion" class="form-control text-center"></select>
+        </div>
+        <div class="col-md-4 my-4 mx-auto">
+            <select id="selectProvincia" class="form-control text-center"></select>
+        </div>
+        <div class="col-md-4 my-4 mx-auto">
+            <select id="selectMunicipio" class="form-control text-center"></select>
+        </div>
+    </div>
+</div>
+
+</body>
+<script src="{% static 'js/index.js' %}"></script>
+<script src="{% static 'vendor/Bootstrap/js/bootstrap.min.js' %}"></script>
+</html>
